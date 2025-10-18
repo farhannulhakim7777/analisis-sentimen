@@ -1,4 +1,12 @@
+// .vscode/settings.json
 {
-    // Ini adalah pengaturan yang membuat Venv auto-aktif di Terminal
-    "python.terminal.activateEnvironment": true 
+    // Ini adalah kunci untuk Formatter Black
+    "python.formatting.provider": "black", 
+    
+    // Ini mengaktifkan Formatter saat menekan Ctrl+S
+    "editor.formatOnSave": true, 
+    
+    // Ini memberitahu VS Code LOKASI PASTI file black.exe di Venv Anda.
+    // Ini mengatasi masalah path di PowerShell.
+    "python.formatting.blackPath": "${workspaceFolder}/.venv/Scripts/black.exe" 
 }
