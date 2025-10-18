@@ -1,0 +1,4 @@
+{
+    // Ini adalah pengaturan yang membuat Venv auto-aktif di Terminal
+    "python.terminal.activateEnvironment": true 
+}
